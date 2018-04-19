@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import PhotoViewer from "./PhotoViewer";
+import "./Body.css";
 
 class Body extends Component {
   render() {
     return (
-      <div>
-        <h1>Photos go here</h1>
+      <div className="body-container">
+        <PhotoViewer />
       </div>
     );
   }

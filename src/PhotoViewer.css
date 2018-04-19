@@ -1,0 +1,10 @@
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}

@@ -2,3 +2,24 @@ ul {
   display: flex;
   list-style-type: none;
 }
+
+li {
+  padding: 10px 30px;
+  flex-shrink: 0;
+  /* margin: auto; */
+  /* background-color: lightblue; */
+  border-radius: 5px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: lightgrey;
+}
+.navWrapper {
+  /* background-color: green; */
+  flex-basis: 50%;
+  /* flex-grow: 1; */
+}

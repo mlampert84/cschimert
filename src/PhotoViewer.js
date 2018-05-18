@@ -4,11 +4,11 @@ import "./PhotoViewer.css";
 import "../node_modules/slick-carousel/slick/slick.css";
 import "../node_modules/slick-carousel/slick/slick-theme.css";
 
-import Photo1 from "./Photos/Starfruit_And_Lizard.jpg";
-import Photo2 from "./Photos/Pomegranate_And_Hardware.jpg";
-import Photo3 from "./Photos/Toy_Girl_With_Dog.jpg";
-import Photo4 from "./Photos/Toy_Horses_And_House.jpg";
-import Photo5 from "./Photos/Wonder_Boy_Asbury_Park.jpg";
+import Photo1 from "./Small_Worlds_Photos/Starfruit_And_Lizard.jpg";
+import Photo2 from "./Small_Worlds_Photos/Pomegranate_And_Hardware.jpg";
+import Photo3 from "./Small_Worlds_Photos/Toy_Girl_With_Dog.jpg";
+import Photo4 from "./Small_Worlds_Photos/Toy_Horses_And_House.jpg";
+import Photo5 from "./Small_Worlds_Photos/Wonder_Boy_Asbury_Park.jpg";
 
 class PhotoViewer extends Component {
   render() {

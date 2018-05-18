@@ -6,9 +6,15 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <div className="name">Catharina Schimert</div>
-        <div className="title">Photography</div>
-        <Nav />
+        <div className="name">
+          <b>catharina schimert</b>
+        </div>
+        <div className="title">photography</div>
+        <Nav
+          navFields={this.props.navFields}
+          activeNavField={this.props.activeNavField}
+          handleNavClick={this.props.handleNavClick}
+        />
       </div>
     );
   }
